@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\config;
+namespace krok\config;
 
 use krok\cp\components\Module;
 
@@ -14,7 +14,7 @@ class Manage extends Module
     /**
      * @var string
      */
-    public $controllerNamespace = 'app\modules\config\controllers';
+    public $controllerNamespace = 'krok\config\controllers';
 
     public function init()
     {

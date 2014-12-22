@@ -1,10 +1,10 @@
 <?php
 
-namespace app\modules\config\controllers;
+namespace krok\config\controllers;
 
 use Yii;
-use app\modules\config\models\Config;
-use app\modules\config\models\ConfigSearch;
+use krok\config\models\Config;
+use krok\config\models\ConfigSearch;
 use krok\cp\components\Controller;
 use yii\web\NotFoundHttpException;
 

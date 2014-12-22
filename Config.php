@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\config;
+namespace krok\config;
 
 use Yii;
 
@@ -9,7 +9,7 @@ class Config extends \yii\base\Module implements \yii\base\BootstrapInterface
     /**
      * @var string
      */
-    public $controllerNamespace = 'app\modules\config\controllers';
+    public $controllerNamespace = 'krok\config\controllers';
 
     public function init()
     {
@@ -39,7 +39,7 @@ class Config extends \yii\base\Module implements \yii\base\BootstrapInterface
         Yii::$app->i18n->translations[$this->id] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
-            'basePath' => '@app/modules/' . $this->id . '/messages',
+            'basePath' => '@krok/' . $this->id . '/messages',
         ];
     }
 }

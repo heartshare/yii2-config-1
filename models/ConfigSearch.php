@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\config\models;
+namespace krok\config\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\config\models\Config;
+use krok\config\models\Config;
 
 /**
- * ConfigSearch represents the model behind the search form about `app\modules\config\models\Config`.
+ * ConfigSearch represents the model behind the search form about `krok\config\models\Config`.
  */
 class ConfigSearch extends Config
 {

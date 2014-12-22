@@ -1,10 +1,10 @@
 <?php
 
-namespace app\modules\config\components;
+namespace krok\config\components;
 
 use Yii;
 use yii\helpers\ArrayHelper;
-use app\modules\config\models\Config as Model;
+use krok\config\models\Config as Model;
 
 class Config
 {

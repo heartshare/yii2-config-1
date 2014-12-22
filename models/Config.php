@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\config\models;
+namespace krok\config\models;
 
 use Yii;
 
